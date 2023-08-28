@@ -3,7 +3,7 @@ int greenLed = 8;
 int buzzer = 6;
 int smokeA0 = A0;
 // Your threshold value
-int sensorThres = 650;
+int sensorThres = 650; // untuk nilai sensor mq2
 
 void setup() {
   pinMode(redLed, OUTPUT);
